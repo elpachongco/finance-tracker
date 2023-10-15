@@ -1,4 +1,4 @@
-Personal Finance Tracker
+# Personal Finance Tracker
 
 ---
 
@@ -42,4 +42,24 @@ Scripts are also available:
 ```
 # pretty printed transactions:
 $ show/tx.sh
+0   date        time   currency  type  amount    category
+1   2023-10-15  22:47  PHP       +     13        fare
+2   2023-10-15  16:44  PHP       -     13        fare
+3   2023-10-15  16:39  PHP       +     13000.05  salary
+4   2023-10-15  14:59  PHP       -     18        fare
+5   2023-10-15  14:56  PHP       -     13        fare
+6   2023-10-15  14:56  PHP       -     13        fare
+7   2023-10-15  14:43  PHP       -     18        fare
+8   2023-10-15  14:43  PHP       -     18        fare
+9   2023-10-15  14:43  PHP       -     18        fare
+10  2023-10-15  14:38  PHP       -     18        fare
+11  2023-10-15  13:42  PHP       +     25        payment16139
 ```
+
+## Why? 
+
+I tried different ways of tracking expenses but it always fails because 
+entering every transaction is a hassle. 
+
+My goal is to create the easiest way to enter transactions for those
+who live in the terminal.
