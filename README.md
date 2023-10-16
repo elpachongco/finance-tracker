@@ -2,6 +2,8 @@
 
 A framework for tracking transactions
 
+![](demo.png)
+
 ## Usage
 
 ```sh
@@ -15,10 +17,10 @@ mkdir -p tx/-25PHP/fare/"from town to home"
 mkdir -p tx/+25,000PHP/gift/"Mrs. Robinson's gift"
 ```
 
-Example: `mkdir -p tx/25XMR/nft/"sold pixelart"` wherein
+Example: `mkdir -p tx/25XMR/nft/"sold pixel art"` wherein
 
-- `25` is the amount. It can be negative for expenses.
-- `XMR` is the currency. Maybe omitted for a default.
+- `25` is the amount. It can be negative for expenses or positive for inflow.
+- `XMR` is the currency
 - `nft` is the transaction category 
 - `sold pixelart` is the description of the transaction. 
     If this is a recurring transaction, $RANDOM can be used for each instance of transaction .e.g. 
